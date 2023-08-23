@@ -8,6 +8,9 @@ import molndal from "../src/assets/img/campusmolndal_logo_RGB.png";
 import handels from "../src/assets/img/university-gothenburg.png";
 import ResponsiveNav from "./components/responsiveNav/ResponsiveNav";
 import brights from './assets/img/brights.jpeg';
+import swedish from './assets/img/swedish.png'
+import english from './assets/img/english.png'
+import german from './assets/img/german.png'
 
 function App() {
   return (
@@ -72,6 +75,22 @@ function App() {
             </article>
           </div>
           <div className="divider"></div>
+          <h1 className="language-heading">Languages</h1>
+          <article className="about-text languages">
+              <img src={swedish} alt="" className="swe-flag"/>
+                  <span>Swedish: fluent</span>
+            </article>
+          <article className="about-text languages">
+            <img src={english} alt="" className="swe-flag"/>
+                  <span>English: fluent</span>
+          </article>
+          <article className="about-text languages">
+            <img src={german} alt="" className="swe-flag"/>
+                  <span>German: good</span>
+          </article>
+
+          <div className="divider"></div>
+
           <h1 className="contact-heading">CONTACT</h1>
 
           <article className="phone">
@@ -119,7 +138,7 @@ function App() {
               <a
                 className="tag"
                 target="_blank"
-                href="https://carinwoodportfolio.netlify.app/"
+                href="https://carinwood-gaming-portfolio.vercel.app/"
               >
                 <p className="portfolio-text">Portfolio</p>
               </a>

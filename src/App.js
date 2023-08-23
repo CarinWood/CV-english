@@ -138,7 +138,7 @@ function App() {
               <a
                 className="tag"
                 target="_blank"
-                href="/https://carinwood-gaming-portfolio.vercel.app/"
+                href="https://carinwood-gaming-portfolio.vercel.app/"
               >
                 <p className="portfolio-text">Portfolio</p>
               </a>

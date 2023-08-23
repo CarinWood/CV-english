@@ -132,13 +132,13 @@ function App() {
               </a>
             </article>
             <article className="portfolio">
-              <a href="https://carinwoodportfolio.netlify.app/" target="_blank">
+              <a href="https://carinwood-gaming-portfolio.vercel.app/" target="_blank">
                 <BsFillBriefcaseFill className="linkedin-icon" />
               </a>
               <a
                 className="tag"
                 target="_blank"
-                href="https://carinwood-gaming-portfolio.vercel.app/"
+                href="/https://carinwood-gaming-portfolio.vercel.app/"
               >
                 <p className="portfolio-text">Portfolio</p>
               </a>
